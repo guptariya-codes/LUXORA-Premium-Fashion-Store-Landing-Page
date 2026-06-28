@@ -6,7 +6,8 @@ A modern, elegant, and fully responsive fashion e-commerce landing page built us
 
 ## 📸 Preview
 
-> *Add a screenshot of your homepage here after uploading it to GitHub.*
+<img width="1912" height="965" alt="image" src="https://github.com/user-attachments/assets/694edcb4-4b2a-40f6-8db6-d12300009039" />
+
 
 ---
 
