@@ -32,7 +32,7 @@ A modern, elegant, and fully responsive fashion landing page built using **HTML5
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
 - Google Fonts
 - Font Awesome
 
