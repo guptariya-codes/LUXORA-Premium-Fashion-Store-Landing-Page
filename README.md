@@ -1,39 +1,41 @@
-# 👗 LUXORA – Premium Fashion Store Landing Page
+# 👗 LUXORA – Premium Fashion Store
 
-A modern, elegant, and fully responsive fashion e-commerce landing page built using **HTML5** and **CSS3**. LUXORA is designed with a luxury aesthetic, smooth user experience, and mobile-first responsiveness.
+A modern, elegant, and fully responsive fashion landing page built using **HTML5**, **CSS3**, and **JavaScript**. LUXORA showcases a luxury-inspired user interface with a strong focus on responsive design, clean layouts, and an engaging user experience.
 
 ---
 
 ## 📸 Preview
 
-<img width="1912" height="965" alt="image" src="https://github.com/user-attachments/assets/694edcb4-4b2a-40f6-8db6-d12300009039" />
-
+> Add a screenshot of the homepage here after uploading the project to GitHub.
 
 ---
 
 ## ✨ Features
 
-* 🎨 Modern luxury-inspired UI
-* 📱 Fully Responsive (Desktop, Tablet & Mobile)
-* 🏠 Beautiful Hero Section
-* 🛍️ Product Categories
-* ⭐ Featured Products Section
-* 🎁 Promotional Sale Banner
-* 🧭 Sticky Navigation Bar
-* 🔗 Smooth Scrolling
-* 🌟 Fade-in Section Animation
-* ❤️ Font Awesome Icons
-* 🖼️ Custom Favicon
-* 🧹 Clean and Organized Code
+- 🎨 Modern luxury-inspired user interface
+- 📱 Fully responsive design (Desktop, Tablet & Mobile)
+- 🏠 Beautiful Hero Section
+- 🛍️ Product Categories
+- ⭐ Featured Products
+- 🎁 Promotional Banner
+- 💬 Customer Testimonials
+- 📧 Newsletter Section
+- 🔗 Smooth Scrolling Navigation
+- 🌟 Fade-in Section Animations
+- ⬆️ Scroll-to-Top Button (JavaScript)
+- 🖼️ Custom Favicon
+- 🧹 Clean and Semantic HTML Structure
+- 🎯 Well-organized and maintainable CSS
 
 ---
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* Google Fonts
-* Font Awesome
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Google Fonts
+- Font Awesome
 
 ---
 
@@ -44,6 +46,7 @@ LUXORA/
 │
 ├── index.html
 ├── style.css
+├── script.js
 ├── favicon.png
 │
 ├── images/
@@ -65,9 +68,9 @@ LUXORA/
 
 ## 🚀 How to Run
 
-1. Download or clone the repository.
+1. Download or clone this repository.
 2. Open the project folder.
-3. Open `index.html` in your browser.
+3. Open `index.html` in your preferred web browser.
 
 No installation or additional setup is required.
 
@@ -75,30 +78,30 @@ No installation or additional setup is required.
 
 ## 📱 Responsive Design
 
-The website is optimized for:
+This website is optimized for:
 
-* 💻 Desktop
-* 📱 Mobile
-* 📟 Tablet
+- 💻 Desktop
+- 📱 Mobile
+- 📟 Tablet
 
 ---
 
 ## 🎯 Purpose
 
-This project was created as a **Frontend Development Internship Assignment** to demonstrate fundamental front-end development skills, including semantic HTML, modern CSS layouts, responsive web design, and clean UI implementation.
+This project was developed as part of my **Frontend Development learning journey** and showcases my understanding of modern web development fundamentals, including semantic HTML, responsive CSS layouts, and basic JavaScript interactivity.
 
 ---
 
 ## 🔮 Future Improvements
 
-* JavaScript Shopping Cart
-* Product Search
-* Wishlist Functionality
-* Dark Mode
-* Product Details Page
-* Login & Signup Pages
-* Checkout Flow
-* Backend Integration
+- 🍔 Mobile Hamburger Menu
+- ❤️ Wishlist Feature
+- 📌 Sticky Navigation Bar
+- 🌙 Dark Mode
+- 🛒 Shopping Cart
+- 🔍 Product Search
+- 👤 Login & Signup Pages
+- ⚙️ Backend Integration
 
 ---
 
@@ -106,7 +109,8 @@ This project was created as a **Frontend Development Internship Assignment** to 
 
 **Riya Gupta**
 
-Frontend Developer | B.Sc. IT Student | Aspiring Full stack developer
+B.Sc. IT Student  
+Frontend Developer | Aspiring Data Analyst
 
 ---
 
