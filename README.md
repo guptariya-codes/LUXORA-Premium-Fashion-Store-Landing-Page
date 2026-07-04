@@ -1,12 +1,11 @@
-# 👗 LUXORA – Premium Fashion Store
+<img width="1912" height="917" alt="image" src="https://github.com/user-attachments/assets/c42b09f8-7566-4a90-8024-eda4b48491ca" /># 👗 LUXORA – Premium Fashion Store
 
 A modern, elegant, and fully responsive fashion landing page built using **HTML5**, **CSS3**, and **JavaScript**. LUXORA showcases a luxury-inspired user interface with a strong focus on responsive design, clean layouts, and an engaging user experience.
 
 ---
 
 ## 📸 Preview
-
-> Add a screenshot of the homepage here after uploading the project to GitHub.
+<img width="1912" height="917" alt="image" src="https://github.com/user-attachments/assets/8b4fb585-287d-453f-9b52-e1d8b6cb996c" />
 
 ---
 
