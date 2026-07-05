@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/images/favicon.png">
 </head>
@@ -20,12 +21,18 @@
     <!-- ================= NAVBAR ================= -->
     <header>
         <nav class="navbar">
-        
-            <div class="logo">
-                <a href="#">LUXORA</a>
+            
+            <div class="nav-left">
+                <i class="fa-solid fa-bars" id="menu-btn"></i>
+                <div class="logo">
+                    <a href="#">LUXORA</a>
+                </div>
             </div>
+           
 
-            <ul class="nav-links">
+           
+
+            <ul class="nav-links" id="nav-links">
 
                 <li><a href="#">Home</a></li>
 
@@ -40,14 +47,15 @@
             </ul>
 
             <div class="nav-icons">
+                
 
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-magnifying-glass mobile-hide"></i>
 
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart mobile-hide"></i>
 
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-cart-shopping "></i>
 
-                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-user mobile-hide"></i>
 
             </div>
 
@@ -341,9 +349,14 @@
     </main>
 
    
-<button id="scrollTopBtn" title="Go to top">
-    ↑
+<button id="scrollTopBtn" title="Go to top">   ↑
 </button>
+
+<div id="cart-notification">
+    ✅ Product added to cart!
+</div>
+
  <script src="script.js"></script>
+ 
 </body>
 </html>
