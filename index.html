@@ -12,7 +12,7 @@
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/images/favicon.png">
 </head>
 
@@ -49,11 +49,20 @@
             <div class="nav-icons">
                 
 
-                <i class="fa-solid fa-magnifying-glass mobile-hide"></i>
+                <i class="fa-solid fa-magnifying-glass mobile-hide" id="search-btn"></i>
 
-                <i class="fa-regular fa-heart mobile-hide"></i>
+                <i class="fa-regular fa-heart mobile-hide" id="wishlist-btn"></i>
 
-                <i class="fa-solid fa-cart-shopping "></i>
+                <div class="cart-icon">
+
+                    <i
+                        class="fa-solid fa-cart-shopping"
+                        id="cart-btn">
+                    </i>
+
+                    <span id="cart-count">0</span>
+
+                </div>
 
                 <i class="fa-regular fa-user mobile-hide"></i>
 
@@ -108,8 +117,8 @@
             </div>
 
         </section>
-        <!-- =========================Featured Categories========================= -->
 
+<!--  Categories -->
 <section class="categories">
 
     <div class="section-title">
@@ -172,7 +181,7 @@
     <div class="product-grid">
 
         <!-- Product 1 -->
-        <div class="product-card">
+        <div class="product-card" data-product="1">
             <div class="badge">NEW</div>
             <img src="assets/images/product1.jpg" alt="Blazer">
             <h3>Premium Beige Blazer</h3>
@@ -183,11 +192,11 @@
 
             <p class="price">₹3,999</p>
 
-            <button>Add to Cart</button>
+            <button class="add-cart" data-id="1">Add to Cart</button>
         </div>
 
         <!-- Product 2 -->
-        <div class="product-card">
+        <div class="product-card" data-product="2">
             <img src="assets/images/product2.jpg" alt="Handbag">
             <h3>Luxury Handbag</h3>
 
@@ -197,11 +206,11 @@
 
             <p class="price">₹2,499</p>
 
-            <button>Add to Cart</button>
+            <button class="add-cart" data-id="2">Add to Cart</button>
         </div>
 
         <!-- Product 3 -->
-        <div class="product-card">
+        <div class="product-card" data-product="3">
             <img src="assets/images/product3.jpg" alt="Shoes">
             <h3>Leather Oxford Shoes</h3>
 
@@ -211,11 +220,11 @@
 
             <p class="price">₹5,299</p>
 
-            <button>Add to Cart</button>
+            <button class="add-cart" data-id="3">Add to Cart</button>
         </div>
 
         <!-- Product 4 -->
-        <div class="product-card">
+        <div class="product-card" data-product="4">
             <img src="assets/images/product4.jpg" alt="Watch">
             <h3>Classic Wrist Watch</h3>
 
@@ -225,7 +234,7 @@
 
             <p class="price">₹4,499</p>
 
-            <button>Add to Cart</button>
+            <button class="add-cart" data-id="4">Add to Cart</button>
         </div>
 
     </div>
@@ -291,8 +300,34 @@
     </div>
 
 </section>
-<footer>
 
+<!-- cart -->
+<section class="cartUI">
+        <div class="cart-header">
+            <h2>Shopping Cart</h2>
+        <button class="close-cart">
+            &times;
+        </button>
+        </div>
+
+        <div class="cart-items">
+
+        </div>
+
+        <div class="cart-footer">
+
+        <h3>Total: ₹0</h3>
+
+        <button class="checkout-btn">
+            Checkout
+        </button>
+        
+        </div>
+    
+</section>
+
+<!-- footer -->
+<footer>
     <div class="footer-container">
 
         <div>
@@ -330,10 +365,17 @@
         <div>
 
             <h3>Newsletter</h3>
+            <form class="newsletter-form">
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required>
 
-            <input type="email" placeholder="Your Email">
+                <button type="submit">
+                    Subscribe
+                </button>
 
-            <button>Subscribe</button>
+            </form>
 
         </div>
 
@@ -356,7 +398,7 @@
     ✅ Product added to cart!
 </div>
 
- <script src="script.js"></script>
+ <script src="js/script.js"></script>
  
 </body>
 </html>
